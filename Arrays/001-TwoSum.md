@@ -28,8 +28,8 @@ public class Solution {
 }
 
 ## 🧠 Approach 2: Two Pointer Approach (O(nlogn))
-## Just sorting with array.sort method changes the original index which 
-## the problem, so for that we have stored the original indexes and sort the values only
+Just sorting with array.sort method changes the original index which 
+was the problem, so for that we have stored the original indexes and sort the values only.
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
      int left = 0; int right = nums.Length-1;
